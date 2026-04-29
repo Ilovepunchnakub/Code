@@ -1,0 +1,82 @@
+{
+  "python": {
+    "chapter1": {
+      "title": "พื้นฐาน Python",
+      "locked_level": 1,
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Hello World",
+          "description": "ให้แสดงคำว่า Hello World",
+          "difficulty": "easy",
+          "exp": 20,
+          "coins": 5,
+          "accepted_outputs": [
+            "Hello World",
+            "Hello World\n",
+            "hello world"
+          ],
+          "required_keywords": [
+            "print"
+          ],
+          "forbidden_keywords": [
+            "import os"
+          ],
+          "hint": "ใช้ print()",
+          "example_code": "print('Hello World')",
+          "time_limit": 2,
+          "memory_limit": 128,
+          "testcases": [
+            {
+              "input": "",
+              "accepted_outputs": [
+                "Hello World",
+                "hello world"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "c": {
+    "chapter1": {
+      "title": "พื้นฐานภาษา C",
+      "locked_level": 1,
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Hello C",
+          "description": "ให้แสดงคำว่า Hello C",
+          "difficulty": "easy",
+          "exp": 20,
+          "coins": 5,
+          "accepted_outputs": [
+            "Hello C",
+            "Hello C\n",
+            "hello c"
+          ],
+          "required_keywords": [
+            "printf"
+          ],
+          "forbidden_keywords": [
+            "goto"
+          ],
+          "hint": "ใช้ printf()",
+          "example_code": "#include <stdio.h>\nint main(){\n  printf(\"Hello C\\n\");\n  return 0;\n}",
+          "time_limit": 2,
+          "memory_limit": 128,
+          "testcases": [
+            {
+              "input": "",
+              "accepted_outputs": [
+                "Hello C",
+                "hello c"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
